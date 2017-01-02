@@ -1,0 +1,33 @@
+dia 01 - 02-12-2016 
+Instalação do Wordpress
+Criação dos arquivos principais
+Criação dos menus
+
+
+dia 02 - 03-13-2016
+https://www.youtube.com/watch?v=mG0Ydr5RoIY
+11:30
+
+
+dia 03 - 04-13-2016
+Criação da galeria 
+Criação do contato
+Criação do footer
+
+
+dia 04 - 05-13-2016
+https://www.youtube.com/watch?v=EmDKuigI00A&list=PL9iRXc4XHkhU9EoKB6THSrN6h8dtodqZp&index=4
+
+
+Exemplo de projetos
+http://preview.themeforest.net/item/catelyn-wordpress-theme-for-bloggers-and-photographers/full_screen_preview/17626464?_ga=1.265758799.1984811198.1482708036
+http://preview.themeforest.net/item/springbook-responsive-wordpress-blog-travel-photography-theme/full_screen_preview/17456424?_ga=1.265758799.1984811198.1482708036
+
+tradutor do wordpress
+https://poedit.net/download
+
+Resetar o CSS para começo de projeto
+http://meyerweb.com/eric/tools/css/reset/
+
+/CSS tools/
+http://www.cssmatic.com/

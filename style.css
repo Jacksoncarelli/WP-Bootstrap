@@ -1,0 +1,649 @@
+/*
+Theme Name: Photograph Theme Bootstrap
+Theme URL: http://########.com
+Description: Site Para Fotografia
+Author: Jackson Carelli
+Author URL: http://#######.com
+Version: 1.1
+*/
+
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 15px;
+	font-family: 'Quicksand', sans-serif;
+
+}
+
+spamicone {
+	font-size: 30px;
+}
+
+
+.category-blog {
+	margin-top: 100px;
+}
+
+.category-blog a{
+	font-size: 30px;
+	text-decoration: none;
+	color: #333333;
+	margin-top: 10px;
+
+}
+
+ .link a{
+
+	font-size: 15px !important;
+	margin-bottom: 50px;
+	text-align: center;
+
+}
+
+.category-blog h2{
+	text-align: center;
+}
+
+.category-blog  p{
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.form-blog .col-md-8 {
+	-webkit-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.26);
+	-moz-box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.26);
+	box-shadow: 0px 0px 7px -1px rgba(0,0,0,0.26);
+	margin-bottom: 50px;
+	background-color: #F8F8F8;
+}
+
+#crumbs, #crumbs a  {
+	color: #fff !important;
+	text-decoration: none !important;
+}
+
+.box {
+
+	background: none;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+	z-index: 99;
+}
+
+.clear {
+	clear: both;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+
+	background-color: black;
+	color: #fff;
+}
+
+.header .navbar-collapse-custom li a, .header .navbar-collapse-custom li a:hover  {
+	background-color: black;
+	color: #fff;
+
+}
+
+.header .navbar {
+border-radius: 0px;
+border-color: #000000;
+border: none;
+padding: 10px 0;
+margin-bottom: 0;
+
+}
+
+.header-page .navbar {
+background: none;
+border-radius: 0px;
+border-color: #000000;
+border: none;
+padding: 10px 0;
+margin-bottom: 0;
+
+}
+
+. {
+	border-bottom: 1px solid #000000;
+	background-color: #fff;
+	padding: 10px 25px 170px ;
+}
+
+.bg-page {
+	background: url(assets/images/header-page.jpg) center top;
+	display: block;
+	height: 250px;
+	position: relative;
+	text-shadow:0 0 10px rgba(0,0,0,0.7);
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+.bg-page article {
+  width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:20% 0 0;
+}
+
+.bg-page h2 {
+	padding-top: 50px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 25px;
+	margin: 0;
+}
+
+
+.acessar-post-blog{
+	clear: both;
+	text-align: center;
+	display: block;
+  margin-left: auto;
+  margin-right: auto
+
+}
+
+.acessar-post-blog a{
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+/*BOTAO PARA ACESSAR O POST BLOG*/
+.acessar-post-blog{
+	border: 1px solid #333;
+	padding: 10px 25px 10px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: inline-block;
+}
+.acessar-post-blog:hover{
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #333;
+	background-color: #F4F4F4;
+}
+
+
+.acessar-post-blog .link{
+	margin: 0 auto;
+	width: 129px;
+}
+.acessar-post-blog .link a:hover{
+	border: 1px solid #333;
+	background: #EFEFEF;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O PORTIFOLIO*/
+
+.portifolio{
+	clear: both;
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 60px;
+}
+
+.portifolio h3 {
+	margin-bottom: 50px;
+}
+
+.title-portifolio{
+	margin-top: 0px !important;
+
+}
+
+.portifolio a{
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+/*BOTAO PARA ACESSAR O PORTIFOLIO*/
+.acessar-portifolio{
+	border: 1px solid #333;
+	padding: 10px 25px 10px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: inline-block;
+}
+.acessar-portifolio:hover{
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #fff;
+}
+
+
+.portifolio .link{
+	margin: 0 auto;
+	width: 129px;
+}
+.portifolio .link a:hover{
+	border: 1px solid #333;
+	background: #EFEFEF;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O PORTIFOLIO*/
+
+.portifolio a:hover{
+	opacity: 1;
+}
+
+
+.category-contato {
+	margin: 150px;
+}
+.category-contato p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.form-contato .form-control {
+
+	height: 40px;
+	border: 1px solid #bababa;
+	border-radius: 0px;
+}
+
+.form-contato .btn-default-custom {
+	float: right;
+	margin-top: 50px;
+	margin-right: 5px;
+	border: 1px solid #bababa;
+	border-radius: 0px;
+}
+
+.form-contato .col-md-3 {
+	padding: 5px !important;
+}
+.form-contato .col-md-9 {
+	padding: 5px !important;
+}
+
+
+textarea.form-control {
+	height: auto !important;
+}
+
+.category-sobre {
+	margin: 150px;
+}
+.category-sobre h2{
+	margin-top: 0px;
+}
+.category-sobre p {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.category-portifolio{
+	margin-top: 30px;
+	clear: both;
+	text-align: justify;
+}
+
+.category-portifolio p{
+	font-size: 15px;
+}
+
+
+
+.category-portifolio a{
+	color: #333;
+	font-size: 22px;
+	opacity: 0.7;
+	text-decoration: none;
+	color: black;
+}
+.category-portifolio a:hover{
+	opacity: 1;
+}
+.category-portifolio .link{
+	margin: 0 auto;
+	width: 129px;
+}
+.category-portifolio .link a:hover{
+	border: 1px solid #333;
+	background: #EFEFEF;
+}
+
+
+.header .navbar-custom {
+	background: #000000;
+}
+.header .navbar-custom  a{
+	color: #5e5e5e;
+}
+.header .navbar-custom .navbar-brand spam{
+	color: #fff;
+}
+
+.header .navbar-collapse-custom li a{
+	color: #fff;
+}
+
+
+.header .navbar-custom-page {
+	background: #fff;
+}
+.header .navbar-custom-page  a{
+	color: #000000;
+}
+.header .navbar-custom-page .navbar-brand spam{
+	color: #000000;
+}
+
+.header .navbar-collapse-custom-page li a{
+	color: #000000;
+}
+
+.menu-menu {
+	background-color: #fff;
+}
+
+.header .navbar-collapse-custom-page li a, .header .navbar-collapse-custom-page li a:hover {
+	background: #fff;
+	color: black;
+}
+
+
+
+
+
+.sobre {
+	text-align: center;
+	background: #cfcfcf;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	background-color: #fff;
+	margin-bottom: 100px;
+}
+.sobre a{
+	color: #333;
+	font-size: 20px;
+	font-weight: bold;
+	opacity: 0.7;
+	text-decoration: none;
+}
+
+
+
+.sobre p{
+	font-size: 30px;
+	margin-bottom: 35px;
+
+}
+
+/*BOTAO PARA ACESSAR PÁGINA SOBRE*/
+.acessar-sobre{
+	border: 1px solid #333;
+	padding: 10px 25px 10px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.acessar-sobre:hover{
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #fff;
+}
+
+.sobre .link{
+	margin: 0 auto;
+	width: 129px;
+}
+.sobre .link a:hover{
+	border: 1px solid #333;
+	background: #EFEFEF;
+}
+/*FIM DO BOTAO PARA ACESSAR PÁGINA SOBRE*/
+.sobre img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.sobre .row {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+.contato {
+	background: #fff;
+	border-bottom: 1px solid #000000;
+
+  }
+
+.footer2 {
+	background: #cfcfcf;
+	padding: 20px 0;
+	font-size: 15px;
+	color: #1c1c1c;
+	text-align: center !important;
+	  }
+
+
+
+.contato input, .contato textarea {
+		background: #fff !important;
+		border: black !important;
+		border-radius: 0  !important;
+		 box-shadow: 2px 2px 2px #ffc;
+		 border: #d3d3d3 !important;
+	}
+
+
+
+	/*REDES SOCIAIS*/
+	@font-face {
+	    font-family: 'si';
+	    src: url('assets/fonts/socicon.eot');
+	    src: url('assets/fonts/socicon.eot?#iefix') format('embedded-opentype'),
+	         url('assets/fonts/socicon.woff') format('woff'),
+	         url('assets/fonts/socicon.ttf') format('truetype'),
+	         url('assets/fonts/socicon.svg#icomoonregular') format('svg');
+	    font-weight: normal;
+	    font-style: normal;
+
+	}
+
+	@media screen and (-webkit-min-device-pixel-ratio:0) {
+	    @font-face {
+	        font-family:si;
+	        src: url(assets/fonts/socicon.svg) format(svg);
+	    }
+	}
+
+	.soc {
+	    overflow:hidden;
+	    margin:0; padding:0;
+	    list-style:none;
+	}
+
+	.soc li {
+	    display:inline-block;
+	    *display:inline;
+	    zoom:1;
+	}
+
+	.soc li a {
+	    font-family:si!important;
+	    font-style:normal;
+	    font-weight:400;
+	    -webkit-font-smoothing:antialiased;
+	    -moz-osx-font-smoothing:grayscale;
+	    -webkit-box-sizing:border-box;
+	    -moz-box-sizing:border-box;
+	    -ms-box-sizing:border-box;
+	    -o-box-sizing:border-box;
+	    box-sizing:border-box;
+
+	    -o-transition:.1s;
+	    -ms-transition:.1s;
+	    -moz-transition:.1s;
+	    -webkit-transition:.1s;
+	    transition:.1s;
+	    -webkit-transition-property: transform;
+	    transition-property: transform;
+	    -webkit-transform: translateZ(0);
+	    transform: translateZ(0);
+
+	    overflow:hidden;
+	    text-decoration:none;
+	    text-align:center;
+	    display:block;
+	    position: relative;
+	    z-index: 1;
+	    width: 30px;
+	    height: 30px;
+	    line-height: 30px;
+	    font-size: 20px;
+	    -webkit-border-radius: 0px;
+	    -moz-border-radius: 0px;
+	    border-radius: 0px;
+	    margin-right: 10px;
+	    color: #ffffff;
+	    background-color: #cfcfcf;
+	    color: #1c1c1c;
+	}
+
+	.soc a:hover {
+	    z-index: 2;
+	    -webkit-transform: translateY(-5px);
+	    transform: translateY(-5px);
+	}
+
+	.soc-icon-last{
+	    margin:0 !important;
+	}
+
+	.soc-facebook:before {
+	    content:'\e041';
+	}
+	.soc-googleplus:before {
+	    content:'\e042';
+	}
+	.soc-instagram:before {
+	    content:'\e057';
+	}
+	.soc-mail:before {
+	    content:'\e01f';
+	}
+	.soc-whatsapp:before {
+	    content:'\e01b';
+	}
+	/*REDES SOCIAIS*/
+
+
+
+
+		/*REDES SOCIAIS PÁGINA SOBRE*/
+		@font-face {
+    font-family: 'si';
+    src: url('PATH_TO/socicon.eot');
+    src: url('PATH_TO/socicon.eot?#iefix') format('embedded-opentype'),
+         url('PATH_TO/socicon.woff') format('woff'),
+         url('PATH_TO/socicon.ttf') format('truetype'),
+         url('PATH_TO/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc-sobre {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
+.soc-sobre li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc-sobre li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 19px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 18px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.soc-sobre a:hover {
+    z-index: 2;
+    background-color:#ebebeb !important;
+}
+
+.soc-sobre-icon-last{
+    margin:0 !important;
+}
+
+.soc-sobre-facebook:before {
+    content:'\e041';
+}
+.soc-sobre-instagram:before {
+    content:'\e057';
+}
+.soc-sobre-whatsapp:before {
+    content:'\e01b';
+}
+.soc-sobre-googleplus:before {
+    content:'\e042';
+}
+		/*REDES SOCIAIS*/
