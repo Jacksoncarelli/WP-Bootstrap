@@ -31,3 +31,6 @@ http://meyerweb.com/eric/tools/css/reset/
 
 /CSS tools/
 http://www.cssmatic.com/
+
+Sidebar - Rede social
+https://www.addthis.com/
