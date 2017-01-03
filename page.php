@@ -99,5 +99,12 @@ if( is_page('sobre') ) {
 	}
 ?>
 
+<?php
+if( is_page('portifolio/') ) {
+ ?>
+
+dasdsa
+ <?php } ?>
+
 
 <?php get_footer(); ?>

@@ -53,11 +53,11 @@
 
 <div id="portifolio" class="portifolio">
 
-		<h3 class="title-portifolio">PORTIFÓLIO</h3>
-		<div class="row">
 
+		<div class="row">
+						<h3 class="title-portifolio">PORTIFÓLIO</h3>
 			<?php
-				$args = array('post_type'=>'post', 'showposts'=>4);
+				$args = array('post_type'=>'portifolio', 'showposts'=>4);
 				$my_posts = get_posts( $args );
 				if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
 			 ?>
@@ -85,8 +85,8 @@
 		<div class="row">
 	<P>JANE SENNA FOTOGRAFIAS
 			<div class="col-md-12 col-lg-12">
-
 					 <img src="/photograph/wp-content/themes/wp-bootstrap/assets/images/jane.jpg" class="img-responsive" alt="Responsive image">
+
 	<br>
 					 <ul class="soc-sobre">
 						 <li><a class="soc-sobre-facebook" href="#"></a></li>
@@ -107,7 +107,15 @@
 <div id="contato" class="contato">
 	 <div class="container">
 		<h2 class="title-sobre" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">CONTATO</h2>
-          <?php echo FrmFormsController::get_form_shortcode(array('id' => 2, 'key' => '', 'title' => false, 'description' => false, 'readonly' => false, 'entry_id' => false )); ?>
+
+					<br>
+								<br>
+											<br>
+														<br>
+																	<br>
+																				<br>
+																							<br>
+
 	</div>
 
 </div>

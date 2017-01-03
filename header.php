@@ -2,7 +2,9 @@
 <html>
 <head>
 	<link rel="shortcut icon" href="/photograph/wp-content/themes/wp-bootstrap/assets/images/favicon.png">
-
+	<?php   $home = get_template_directory_uri(); ?>
+  <link rel="stylesheet" href="<?= $home ?>/reset.css">
+  <link rel="stylesheet" href="<?= $home ?>/style.css">
 
 	<?php wp_head(); ?>
 <link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
@@ -109,19 +111,11 @@ if(is_home()):
  ?>
 <div   class="header-page">
 	<nav class="navbar navbar-default navbar-custom-page">
-		  <div class="container">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		      <a class="navbar-brand" href="<?php bloginfo('url') ?>"><spam>JANESENNA</spam>FOTOGRAFIAS</a>
+		  <div align="center" class="container">
+		  		    <a class="header-blog" href="<?php bloginfo('url') ?>"><h3><spam>JANESENNA</spam>FOTOGRAFIAS</a></h3>
 		    </div>
 
-			<?php require_once('assets/includes/wp_bootstrap_navwalker.php'); ?>
+			<!-- <?php require_once('assets/includes/wp_bootstrap_navwalker.php'); ?>
 		    <?php
             wp_nav_menu( array(
                 'menu'              => 'Menu',
@@ -134,7 +128,7 @@ if(is_home()):
                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
                 'walker'            => new wp_bootstrap_navwalker())
             );
-        ?>
+        ?> -->
 
 		  </div><!-- /.container-fluid -->
 		</nav>
@@ -143,13 +137,13 @@ if(is_home()):
 		<div class="bg-page" data-speed="15">
 			<div class="container">
 		<?php if (is_category()): ?>
-			<h2>PORTIFÓLIO</h2>
+			<!-- <h2>PORTIFÓLIO</h2> -->
 		<?php else : ?>
-			<h2><?php the_title(); ?></h2>
+			<!-- <h2><?php the_title(); ?></h2> -->
 		<?php endif; ?>
 
 			<BR>
-			<?php wp_custom_breadcrumbs(); ?>
+			<!-- <?php wp_custom_breadcrumbs(); ?> -->
 			</div>
 		</div>
 </article>
