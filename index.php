@@ -55,7 +55,9 @@
 
 
 		<div class="row">
-						<h3 class="title-portifolio">PORTIFÓLIO</h3>
+						<h3 class="title-portifolio">Portifólio
+						<p>Últimos álbuns postados</p></h3>
+
 			<?php
 				$args = array('post_type'=>'portifolio', 'showposts'=>4);
 				$my_posts = get_posts( $args );
@@ -83,7 +85,7 @@
 	<div class="container">
 <div id="sobre" class="sobre">
 		<div class="row">
-	<P>JANE SENNA FOTOGRAFIAS
+	<P>Jane Sena Novais
 			<div class="col-md-12 col-lg-12">
 					 <img src="/photograph/wp-content/themes/wp-bootstrap/assets/images/jane.jpg" class="img-responsive" alt="Responsive image">
 
@@ -94,7 +96,7 @@
 						 <li><a class="soc-sobre-instagram" href="#"></a></li>
 						 <li><a class="soc-sobre-whatsapp soc-sobre-icon-last" href="#"></a></li>
 					 </ul>
-					 	<div class="link"><a class="acessar-sobre" href="sobre">CONHECER</a></div>
+					 	<div class="link"><a class="acessar-sobre"  href="sobre">Saiba mais sobre mim</a></div>
 
 			</div>
 
@@ -104,9 +106,9 @@
 </div>
 </div>
 
-<div id="contato" class="contato">
+<div id="depoimentos" class="depoimentos">
 	 <div class="container">
-		<h2 class="title-sobre" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">CONTATO</h2>
+		<h2 class="title-sobre" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">Depoimentos de Clientes</h2>
 
 					<br>
 								<br>
@@ -115,6 +117,69 @@
 																	<br>
 																				<br>
 																							<br>
+
+	</div>
+
+</div>
+
+<div id="contato" class="contato">
+	 <div class="container-fluid">
+		<h2 class="title-sobre" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">Solicite seu Orçamento</h2>
+
+
+		<div class="category-contato">
+				<div class="row">
+						<div class="col-md-3 col-lg-3">
+			<p> Caso prefira, entre em contato comigo via whastapp, é muito mais prático e rápido.
+
+			<p> (69) 9.9974-3782
+
+			<p> Consulte a disponibilidade e os valores para o seu evento preenchendo o formulário ao lado.
+		Quanto mais detalhes você informar, melhor e mais rápido poderemos responder.
+						</div>
+						<div class="form-contato">
+
+									<div class="col-md-3 col-lg-3">
+										 <label for="exampleInputName">Nome *</label>
+											<input type="text" class="form-control" >
+									</div>
+									<div class="col-md-3 col-lg-3">
+										 <label for="exampleInputName">Email *</label>
+											<input type="text" class="form-control" >
+									</div>
+									<div class="col-md-3 col-lg-3">
+										 <label for="exampleInputName">Telefone *</label>
+											<input type="text" class="form-control" >
+									</div>
+
+									<div class="col-md-3 col-lg-3">
+										 <label for="exampleInputName">Serviço *</label>
+										 <select class="form-control">
+												 <option>Casamento</option>
+												 <option>Aniversário</option>
+												 <option>Ensáio Gestante</option>
+												 <option>Ensáio Newborn</option>
+												 <option>Outros eventos</option>
+										</select>
+									</div>
+									<div class="col-md-3 col-lg-3">
+										 <label for="exampleInputName">Local *</label>
+											<input type="text" class="form-control" >
+									</div>
+									<div class="col-md-3 col-lg-3">
+										 <label for="exampleInputName">Data/Hora *</label>
+											<input type="text" class="form-control" >
+									</div>
+									<div class="col-md-9 col-lg-9">
+										 <label for="exampleInputName1">Mensagem *</label>
+										 <span>
+											<textarea class="form-control" rows="5" ></textarea>
+											</span>
+									</div>
+									<button type="button" class="btn btn-default btn-default-custom">Solicitar Oraçamento</button>
+							</div>
+				</div>
+		</div>
 
 	</div>
 

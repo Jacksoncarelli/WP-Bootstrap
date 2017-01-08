@@ -293,10 +293,8 @@ function cadastrando_post_type_portifolio() {
                   'comments',
             )
             // 'taxonomies'  => array( 'category' ),
-
-
          );
-
+         
   register_post_type('portifolio', $args);
   flush_rewrite_rules();
 

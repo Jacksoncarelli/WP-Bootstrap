@@ -61,6 +61,10 @@
 </head>
 <?php flush(); ?>
 <body>
+<!--
+BLOQUEANDO O ACESSO COM BOTÃO DIREITO DO MOUSE - CONTRA COPIAS -
+oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
+
 <div class="container">
 		<div  class="box">
 			<spamicone class="glyphicon glyphicon-menu-up" aria-hidden="true"></spamicone>
@@ -74,7 +78,7 @@
 if(is_home()):
 
  ?>
-<div   class="header">
+<di v   class="header">
 	<nav class="navbar navbar-default navbar-custom">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -110,7 +114,7 @@ if(is_home()):
     else:
  ?>
 <div   class="header-page">
-	<nav class="navbar navbar-default navbar-custom-page">
+	<nav class="navbar navbar-custom-page">
 		  <div align="center" class="container">
 		  		    <a class="header-blog" href="<?php bloginfo('url') ?>"><h3><spam>JANESENNA</spam>FOTOGRAFIAS</a></h3>
 		    </div>
