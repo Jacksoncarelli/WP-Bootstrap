@@ -368,6 +368,7 @@ textarea.form-control {
 	margin: 150px;
 }
 .category-sobre h2{
+
 	margin-top: 0px;
 }
 .category-sobre p {
@@ -447,8 +448,37 @@ textarea.form-control {
 
 
 .depoimentos{
+	color: #fff;
 	border-bottom: 1px solid #000000;
 	border-top: 1px solid #000000;
+	text-align: center;
+	margin-bottom: 50px;
+	background: url(assets/images/back.jpg)  center top ;
+	display: block;
+	position: relative;
+	text-shadow:0 0 10px rgba(0,0,0,0.7);
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+
+
+}
+
+
+.depoimentos h2{
+	margin-top: 100px !important;
+		text-decoration: none;
+}
+
+.depoimentos p{
+		margin-bottom: 100px;
+}
+
+.depoimentos img{
+margin-top: 40px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
 }
 
 
@@ -469,8 +499,26 @@ textarea.form-control {
 
 .sobre p{
 	font-size: 30px;
-	margin-bottom: 35px;
 
+}
+
+.sobre h3{
+	margin-top: 30px;
+	margin-bottom: 28px;
+	font-size: 20px;
+}
+.sobre h5{
+	margin-bottom: 80px;
+	font-size: 30px;
+}
+.sobre h6{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+
+.sobre p{
+	font-size: 15px;
 }
 
 /*BOTAO PARA ACESSAR PÁGINA SOBRE*/
@@ -498,6 +546,7 @@ textarea.form-control {
 }
 /*FIM DO BOTAO PARA ACESSAR PÁGINA SOBRE*/
 .sobre img{
+	margin-top: 50px;
 	display: block;
 	width: 250px;
 	height: 250px;
@@ -508,7 +557,7 @@ textarea.form-control {
 
 
 .sobre .row {
-	margin-top: 100px;
+	margin-top: 80px;
 	margin-bottom: 100px;
 }
 .contato {
@@ -697,12 +746,12 @@ textarea.form-control {
     border-radius: 100px;
     margin-right: 18px;
     color: #000000;
-    background-color: #ffffff;
+    background-color: rgba(#ffffff, 0);
 }
 
 .soc-sobre a:hover {
     z-index: 2;
-    background-color:#ebebeb !important;
+    background-color:#c7c7c7 !important;
 }
 
 .soc-sobre-icon-last{

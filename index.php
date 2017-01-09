@@ -85,19 +85,35 @@
 	<div class="container">
 <div id="sobre" class="sobre">
 		<div class="row">
-	<P>Jane Sena Novais
-			<div class="col-md-12 col-lg-12">
+
+			<div class="col-md-4 col-lg-4">
+				<h5>Facebook
+
+			</div>
+
+			<div class="col-md-4 col-lg-4">
+				<h5>Jane Sena Novais
 					 <img src="/photograph/wp-content/themes/wp-bootstrap/assets/images/jane.jpg" class="img-responsive" alt="Responsive image">
 
-	<br>
-					 <ul class="soc-sobre">
+					 	<div class="link"><a class="acessar-sobre"  href="sobre">Saiba mais sobre mim</a></div>
+			</div>
+
+			<div class="col-md-4 col-lg-4">
+				<h5>Contato</h5>
+					<h3><a href="contato">SOLICITE UM ORÇAMENTO AQUI</a></h3>
+
+							<p>+55 (69) 9.9974-3782
+							<p>janesennafotografias@gmail.com
+							<p>Rua Abílio Freire
+							<p>Ji-Paraná - RO</p>
+
+							<h6>REDES SOCIAIS</h6>
+						<ul class="soc-sobre">
 						 <li><a class="soc-sobre-facebook" href="#"></a></li>
 						 <li><a class="soc-sobre-googleplus" href="#"></a></li>
 						 <li><a class="soc-sobre-instagram" href="#"></a></li>
 						 <li><a class="soc-sobre-whatsapp soc-sobre-icon-last" href="#"></a></li>
 					 </ul>
-					 	<div class="link"><a class="acessar-sobre"  href="sobre">Saiba mais sobre mim</a></div>
-
 			</div>
 
 
@@ -107,19 +123,29 @@
 </div>
 
 <div id="depoimentos" class="depoimentos">
-	 <div class="container">
-		<h2 class="title-sobre" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">Depoimentos de Clientes</h2>
+	 <div align="center" class="container">
+		<h2 class="title-depoimentos" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">Depoimentos de Clientes</h2>
 
-					<br>
-								<br>
-											<br>
-														<br>
-																	<br>
-																				<br>
-																							<br>
+		<?php
+			$args = array('post_type'=>'depoimento', 'showposts'=>4);
+			$my_posts = get_posts( $args );
+			if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
+		 ?>
+
+			<div class="col-md-3 col-lg-3">
+				<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
+				<h3> <?php the_title(); ?></h3>
+				<?php the_excerpt(); ?>
+			</div>
+
+		 <?php
+				endforeach;
+				endif;
+			?>
+			<div class="clear"></div>
 
 	</div>
-
+</div>
 </div>
 
 <div id="contato" class="contato">

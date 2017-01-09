@@ -47,6 +47,12 @@
                 }, 1000);
             });
 
+						$("#menu-item-183").click(function (){
+								$('html, body').animate({
+										scrollTop: $(".depoimentos").offset().top
+								}, 1000);
+						});
+
             $("#menu-item-120").click(function (){
                 $('html, body').animate({
                     scrollTop: $(".contato").offset().top
@@ -158,3 +164,4 @@ if(is_home()):
 <?php endif;
 
  ?>
+ 
