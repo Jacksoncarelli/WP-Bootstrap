@@ -56,7 +56,9 @@
 
 		<div class="row">
 						<h3 class="title-portifolio">Portifólio
-						<p>Últimos álbuns postados</p></h3>
+							<p>Últimos álbuns postados</p>
+						</h3>
+
 
 			<?php
 				$args = array('post_type'=>'portifolio', 'showposts'=>4);

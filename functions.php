@@ -42,6 +42,7 @@ add_action ('widgets_init','register_sidebar');
 add_theme_support('menus');
 register_nav_menus( array(
     'primary' => __( 'Menu header', 'menu-header' ),
+    'menu-category' => 'Menu categoria',
 ) );
 
 /**************************************
@@ -339,7 +340,7 @@ function cadastrando_post_type_depoimentos() {
     'labels' => $labels,
     'public' => true,
     'description' => $description,
-    'menu_icon' => 'dashicons-portfolio',
+    'menu_icon' => 'dashicons-heart',
     'supports' => $supports,
     'publicly_queryable' => true,
     'show_ui' => true,
