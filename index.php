@@ -61,15 +61,26 @@
 
 
 			<?php
-				$args = array('post_type'=>'portifolio', 'showposts'=>4);
+				$args = array('post_type'=>'portifolio', 'showposts'=>8);
 				$my_posts = get_posts( $args );
 				if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
 			 ?>
 
-				<div class="col-md-3 col-lg-3">
-					<a  href="<?php the_permalink(); ?>"><?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?></a>
-					<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-					<?php the_excerpt(); ?>
+				<div class="col-md-4 col-lg-4">
+<div class="hoverzoom ">
+					<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
+<div class="retina ">
+			<!-- <a href="<?php the_permalink(); ?>"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
+			<p>0 Curtidas</p> -->
+			<h2><?php the_title(); ?></h2>
+			<?php the_excerpt(); ?>
+
+			<a class="acessar-portifolio-unico" align="center"  href="<?php the_permalink(); ?>">Veja Mais</a>
+
+
+</div>
+</div>
+
 				</div>
 
 			 <?php
@@ -77,7 +88,7 @@
 		    	endif;
 	     	?>
 	     	<div class="clear"></div>
-			<div class="link"><a class="acessar-portifolio" href="category/portifolio">ACESSAR PORTIFÓLIO</a></div>
+	<a class="acessar-portifolio" align="center"  href="category/portifolio">ACESSAR PORTIFÓLIO</a>
 		</div>
 	</div>
 </div>

@@ -26,13 +26,13 @@
 								<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?></a>
 
 								<ul>
-									<li style="list-style-type: none;"><hr style="height:1px; border:none; color:#000; background-color:#000; margin-top: 10px; margin-bottom: -12px;"/></li>
-
+									
 								    <li><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> </li>
-								    <li style="list-style-type: none;"><hr style="height:1px; border:none; color:#000; background-color:#000; margin-top: 0px; margin-bottom: 0px;"/></li>
-										<br>
+								    	<br>
 										<li><span> <?php the_date(); ?> </span></li>
 										 <li><?php the_excerpt(); ?></li>
+										 <li style="list-style-type: none;"><hr style="height:1px; border:none; color:#000000; background-color:#000; margin-top: 10px; margin-bottom: 12px;"/></li>
+
 								</ul>
 
 

@@ -10,11 +10,23 @@ Version: 1.1
 body {
 	padding: 0;
 	margin: 0;
-	font-size: 15px;
+	font-size: 13px;
 	font-family: 'Quicksand', sans-serif;
 	background-image: url(assets/images/backgroundsite.jpg);
 
 }
+
+.navbar-right a{
+	border-bottom: 1px solid rgba(#000000, 0);
+
+}
+
+.navbar-right a:hover{
+		border-bottom: 1px solid #000;
+
+}
+
+
 
 .blog-sidebar li a {
 	font-size: 15px;
@@ -72,7 +84,6 @@ spamicone {
 }
 
 .category-blog a{
-	font-size: 30px;
 	text-decoration: none;
 	color: #333333;
 	margin-top: 10px;
@@ -80,10 +91,10 @@ spamicone {
 }
 
  .link a{
-
-	font-size: 15px !important;
+	 padding: 10px 0px 10px;
+	font-size: 12px !important;
 	margin-bottom: 50px;
-	text-align: center;
+
 
 }
 
@@ -101,8 +112,8 @@ spamicone {
 }
 
 
-.form-blog .col-md-8 {
-
+.form-blog .col-md-8 h2 a {
+	font-size: 24px !important;
 }
 
 #crumbs, #crumbs a  {
@@ -246,7 +257,7 @@ margin-bottom: 0;
 }
 
 .portifolio h3 {
-	font-size: 40px;
+	font-size: 30	px;
 	margin-bottom: 100px;
 
 }
@@ -262,6 +273,7 @@ margin-bottom: 0;
 }
 
 .portifolio a{
+	margin-top: 30px;
 	color: #333;
 	font-size: 20px;
 	font-weight: bold;
@@ -269,20 +281,112 @@ margin-bottom: 0;
 	text-decoration: none;
 }
 
+.hoverzoom {
+position: relative;
+overflow: hidden;
+}
+
+.conteudo-retina {
+	margin-top: 20px;
+}
+
+.conteudo-retina h2{
+	font-size: 18px !important;
+}
+
+.conteudo-retina p{
+	margin-top: 50px !important;
+	font-size: 15px !important;
+}
+
+
+.hoverzoom .retina{
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+opacity: 0;
+background: none repeat scroll 0 0 rgba(0, 0, 0, 0.86);
+border-radius: 2px;
+text-align: center;
+padding: 30px;
+-webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+-o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+}
+
+.hoverzoom:hover .retina {
+opacity: 1;
+}
+.hoverzoom:hover .retina a {
+	font-size: 20px !important;
+	font: inherit;
+color: #bbbbbb !important;
+}
+
+
+
+
+.hoverzoom .retina span{
+	margin-top: 60px;
+	font-size: 50px;
+color: #bbbbbb;
+}
+.hoverzoom .retina {
+	font: inherit;
+	color: #bbbbbb !important;
+}
+.hoverzoom .retina span:hover{
+
+color: #b62e2e;
+}
+
+
+/*BOTAO PARA ACESSAR O PORTIFOLIO-UNICO*/
+.acessar-portifolio-unico{
+	border: 1px solid #333;
+	width: 200px;
+	color: #bbbbbb;
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: inline-block;
+
+	padding: 10px 0px 10px;
+ font-size: 12px !important;
+}
+
+.acessar-portifolio-unico:hover{
+	text-decoration: none;
+	background: #333;
+	border: 1px solid #000000;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O PORTIFOLIO*/
+
 /*BOTAO PARA ACESSAR O PORTIFOLIO*/
 .acessar-portifolio{
 	border: 1px solid #333;
-	padding: 10px 25px 10px;
+	width: 200px;
 	color: #fff;
 	text-transform: uppercase;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	display: inline-block;
+
+	padding: 10px 0px 10px;
+ font-size: 12px !important;
 }
+
+
+
+
 .acessar-portifolio:hover{
 	text-decoration: none;
 	color: #333;
-	border: 1px solid #fff;
+	border: 1px solid #000000;
 }
 
 
@@ -290,6 +394,12 @@ margin-bottom: 0;
 	margin: 0 auto;
 	width: 129px;
 }
+
+.col-md-4{
+	margin-bottom: 10px !important;
+}
+
+
 .portifolio .link a:hover{
 	border: 1px solid #333;
 	color: #171717;
@@ -524,7 +634,7 @@ margin-top: 40px;
 /*BOTAO PARA ACESSAR PÁGINA SOBRE*/
 .acessar-sobre{
 	border: 1px solid #333;
-	width: 350px;
+	width: 200px;
 	padding: 10px 25px 10px;
 	color: #fff;
 	text-transform: uppercase;
@@ -536,6 +646,7 @@ margin-top: 40px;
 	text-decoration: none;
 	color: #333;
 	border: 1px solid #fff;
+
 }
 
 .sobre .link{
@@ -544,7 +655,15 @@ margin-top: 40px;
 	border: 1px solid #333;
 	color: #171717;
 }
-/*FIM DO BOTAO PARA ACESSAR PÁGINA SOBRE*/
+.sobre a:hover{
+	border-bottom: 1px solid #333;
+	color: #171717;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O SOBRE*/
+
+.sobre a:hover{
+	opacity: 1;
+}
 .sobre img{
 	margin-top: 50px;
 	display: block;
@@ -751,7 +870,8 @@ margin-top: 40px;
 
 .soc-sobre a:hover {
     z-index: 2;
-    background-color:#c7c7c7 !important;
+    background-color:#d6d6d6 !important;
+		border: none;
 }
 
 .soc-sobre-icon-last{
