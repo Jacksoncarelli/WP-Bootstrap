@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-
 <div class="slider">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	  <!-- Indicators -->
@@ -61,37 +60,77 @@
 
 
 			<?php
-				$args = array('post_type'=>'portifolio', 'showposts'=>8);
-				$my_posts = get_posts( $args );
-				if($my_posts) : foreach($my_posts as $post) : setup_postdata( $post );
-			 ?>
-
-				<div class="col-md-4 col-lg-4">
-<div class="hoverzoom ">
-					<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
-<div class="retina ">
-			<!-- <a href="<?php the_permalink(); ?>"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span></a>
-			<p>0 Curtidas</p> -->
-			<h2><?php the_title(); ?></h2>
-			<?php the_excerpt(); ?>
-
-			<a class="acessar-portifolio-unico" align="center"  href="<?php the_permalink(); ?>">Veja Mais</a>
 
 
-</div>
-</div>
+			$new_query = new WP_Query( array(
+			    'posts_per_page' => 4,
+			    'post_type'      => portifolio,
+			    'orderby'        => 'menu_order',
+			    'paged'          => $paged
+			) );
 
-				</div>
 
-			 <?php
-		    	endforeach;
-		    	endif;
-	     	?>
+			while ( $new_query->have_posts() ) : $new_query->the_post(); {
+?>
+			<div class="col-md-3 col-lg-3">
+
+				<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
+
+
+
+					</div>
+					 <?php
+}
+
+endwhile;
+wp_reset_postdata();
+
+
+?>
+
+
+
 	     	<div class="clear"></div>
-	<a class="acessar-portifolio" align="center"  href="category/portifolio">ACESSAR PORTIFÓLIO</a>
+	<span><a class="acessar-portifolio" align="center"  href="category/portifolio">ACESSAR PORTIFÓLIO</a></span>
 		</div>
 	</div>
 </div>
+
+<li style="list-style-type: none;"><hr style="height:1px; border:none; color:#000000; background-color:#000; margin-top: 10px; margin-bottom: 12px;"/></li>
+
+
+<div id="portifolio" class="portifolio">
+		<div class="row">
+						<h3 class="title-portifolio">Blog
+							<br>
+							<p>Últimos posts</p>
+						</h3>
+			<?php
+			$new_query = new WP_Query( array(
+			    'posts_per_page' => 8,
+			    'post_type'      => portifolio,
+			    'orderby'        => 'menu_order',
+			    'paged'          => $paged
+			) );
+			while ( $new_query->have_posts() ) : $new_query->the_post(); {
+?>
+			<div class="col-md-4 col-lg-4">
+										<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
+<a class="" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+					</div>
+					 <?php
+}
+endwhile;
+wp_reset_postdata();
+?>
+	     	<div class="clear"></div>
+	<span><a class="acessar-portifolio" align="center"  href="category/portifolio">ACESSAR BLOG</a></span>
+		</div>
+	</div>
+</div>
+
+
+
 
 
 

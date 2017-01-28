@@ -50,7 +50,7 @@ register_nav_menus( array(
  **************************************/
 function wp_responsivo_scripts() {
   // Carregando CSS header
-  wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
+  wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/assets/css/bootstrap/bootstrap.min.css' );
   wp_enqueue_style( 'style', get_stylesheet_uri() );
 
   // Carregando Scripts header

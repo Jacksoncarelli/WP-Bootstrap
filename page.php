@@ -7,7 +7,7 @@ if( is_page('contato') ) {
 
 <div class="category-contato">
 		<div class="row">
-				<div class="col-md-2 col-lg-2">
+				<div class="col-md-3 col-lg-3">
 		<h2>ORÇAMENTO</h2>
 	<p> Caso prefira, entre em contato comigo via whastapp, é muito mais prático e rápido.
 
@@ -61,7 +61,7 @@ Quanto mais detalhes você informar, melhor e mais rápido poderemos responder.
 
 
 
-<div class="col-md-4 col-lg-4">
+<div class="col-md-3 col-lg-3">
   <div class="google-maps">
 
 

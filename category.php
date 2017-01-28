@@ -4,15 +4,8 @@
 
 <div class="category-blog">
 	<div class="container-fluid">
+
 		<div class="row">
-			<!-- <div style="float: right;"  class="col-sm-3 col-sm-offset-1 blog-sidebar">
-						<?php if(is_active_sidebar('sidebar-1')): ?>
-								<?php dynamic_sidebar('sidebar'); ?>
-					  <?php endif; ?>
-			</div> -->
-
-
-
 			<div class="form-blog">
 					<br>
 					<?php $args = array(
@@ -26,7 +19,7 @@
 								<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?></a>
 
 								<ul>
-									
+
 								    <li><h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2> </li>
 								    	<br>
 										<li><span> <?php the_date(); ?> </span></li>
@@ -39,10 +32,16 @@
 								<!-- <div class="link"><a class="acessar-post-blog" href="<?php the_permalink(); ?>">ACESSAR</a></div> -->
 								</div>
 								<?php endwhile; endif; ?>
+
 			</div>
+
 		</div>
+
   </div>
+
+
 </div>
+
 
 
 
