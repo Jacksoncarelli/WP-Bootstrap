@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/category.css">
 
 <div class="category-blog">
 	<div class="container-fluid">

@@ -1,0 +1,34 @@
+
+.category-blog {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.category-blog a{
+	text-decoration: none;
+	color: #333333;
+	margin-top: 10px;
+
+}
+
+
+.category-blog h2 a{
+	font-size: 25px !important;
+	margin-top: 5px !important;
+}
+.category-blog li span{
+	margin-top: 15px !important;
+}
+
+.category-blog  p{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+
+.form-blog .col-md-8 h2 a {
+	font-size: 24px !important;
+}
+
+
+--------------------------------------------------------------------------------

@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
-
-
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/single-portifolio.css">
 
 <div class="container">
       <div align="center"  class="col-md-12 col-lg-12">

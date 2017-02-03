@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/index.css">
+
 <div class="slider">
 	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 	  <!-- Indicators -->
@@ -99,9 +101,9 @@ wp_reset_postdata();
 <li style="list-style-type: none;"><hr style="height:1px; border:none; color:#000000; background-color:#000; margin-top: 10px; margin-bottom: 12px;"/></li>
 
 
-<div id="portifolio" class="portifolio">
+<div id="blog" class="blog">
 		<div class="row">
-						<h3 class="title-portifolio">Blog
+						<h3 class="title-blog">Blog
 							<br>
 							<p>Últimos posts</p>
 						</h3>
@@ -124,7 +126,7 @@ endwhile;
 wp_reset_postdata();
 ?>
 	     	<div class="clear"></div>
-	<span><a class="acessar-portifolio" align="center"  href="category/portifolio">ACESSAR BLOG</a></span>
+	<span><a class="acessar-blog" align="center"  href="category/portifolio">ACESSAR BLOG</a></span>
 		</div>
 	</div>
 </div>
@@ -160,12 +162,12 @@ wp_reset_postdata();
 							<p>Ji-Paraná - RO</p>
 
 							<h6>REDES SOCIAIS</h6>
-						<ul class="soc-sobre">
-						 <li><a class="soc-sobre-facebook" href="#"></a></li>
-						 <li><a class="soc-sobre-googleplus" href="#"></a></li>
-						 <li><a class="soc-sobre-instagram" href="#"></a></li>
-						 <li><a class="soc-sobre-whatsapp soc-sobre-icon-last" href="#"></a></li>
-					 </ul>
+							<ul class="soc">
+							    <li><a class="soc-facebook" href="#"></a></li>
+							    <li><a class="soc-instagram" href="#"></a></li>
+							    <li><a class="soc-mail" href="#"></a></li>
+							    <li><a class="soc-whatsapp soc-icon-last" href="#"></a></li>
+							</ul>
 			</div>
 
 
@@ -198,68 +200,5 @@ wp_reset_postdata();
 
 	</div>
 </div>
-</div>
 
-<div id="contato" class="contato">
-	 <div class="container-fluid">
-		<h2 class="title-sobre" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">Solicite seu Orçamento</h2>
-
-
-		<div class="category-contato">
-				<div class="row">
-						<div class="col-md-3 col-lg-3">
-			<p> Caso prefira, entre em contato comigo via whastapp, é muito mais prático e rápido.
-
-			<p> (69) 9.9974-3782
-
-			<p> Consulte a disponibilidade e os valores para o seu evento preenchendo o formulário ao lado.
-		Quanto mais detalhes você informar, melhor e mais rápido poderemos responder.
-						</div>
-						<div class="form-contato">
-
-									<div class="col-md-3 col-lg-3">
-										 <label for="exampleInputName">Nome *</label>
-											<input type="text" class="form-control" >
-									</div>
-									<div class="col-md-3 col-lg-3">
-										 <label for="exampleInputName">Email *</label>
-											<input type="text" class="form-control" >
-									</div>
-									<div class="col-md-3 col-lg-3">
-										 <label for="exampleInputName">Telefone *</label>
-											<input type="text" class="form-control" >
-									</div>
-
-									<div class="col-md-3 col-lg-3">
-										 <label for="exampleInputName">Serviço *</label>
-										 <select class="form-control">
-												 <option>Casamento</option>
-												 <option>Aniversário</option>
-												 <option>Ensáio Gestante</option>
-												 <option>Ensáio Newborn</option>
-												 <option>Outros eventos</option>
-										</select>
-									</div>
-									<div class="col-md-3 col-lg-3">
-										 <label for="exampleInputName">Local *</label>
-											<input type="text" class="form-control" >
-									</div>
-									<div class="col-md-3 col-lg-3">
-										 <label for="exampleInputName">Data/Hora *</label>
-											<input type="text" class="form-control" >
-									</div>
-									<div class="col-md-9 col-lg-9">
-										 <label for="exampleInputName1">Mensagem *</label>
-										 <span>
-											<textarea class="form-control" rows="5" ></textarea>
-											</span>
-									</div>
-									<button type="button" class="btn btn-default btn-default-custom">Solicitar Oraçamento</button>
-							</div>
-				</div>
-		</div>
-
-	</div>
-
-</div>
 <?php get_footer(); ?>

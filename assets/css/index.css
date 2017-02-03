@@ -1,0 +1,341 @@
+/*--------------------------------------------------------------------------------*/
+/*                                       BLOG                                     */
+/*--------------------------------------------------------------------------------*/
+.portifolio{
+	clear: both;
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+.portifolio h3 {
+	font-size: 30	px;
+	margin-bottom: 100px;
+}
+.portifolio h3 p {
+	margin-top: 5px !important;
+	font-size: 15px !important;
+}
+.title-portifolio{
+	margin-top: 120px !important;
+	margin-bottom: 60px !important;
+}
+.portifolio img{
+margin-bottom: 15px !important;
+margin-top: 80px !important;
+}
+.portifolio a{
+	text-decoration: none;
+	border-bottom: 1px solid;
+	color: #333;
+	font-size: 20px;
+	font-style: italic;
+	opacity: 0.7;
+}
+.portifolio .link{
+	margin: 0 auto;
+	width: 129px;
+}
+.portifolio .link a:hover{
+	border: 1px solid #333;
+	color: #171717;
+}
+.portifolio a:hover{
+	opacity: 1;
+}
+.col-md-4{
+	margin-bottom: 10px !important;
+}
+.category-portifolio{
+	margin-top: 30px;
+	clear: both;
+	text-align: justify;
+}
+.category-portifolio p{
+	font-size: 15px;
+}
+.category-portifolio a{
+	color: #333;
+	font-size: 22px;
+	opacity: 0.7;
+	text-decoration: none;
+	color: black;
+}
+.category-portifolio a:hover{
+	opacity: 1;
+}
+.category-portifolio .link{
+	margin: 0 auto;
+	width: 129px;
+}
+.category-portifolio .link a:hover{
+	border: 1px solid #333;
+	background: #EFEFEF;
+}
+
+/*BOTAO PARA ACESSAR O BLOG-UNICO*/
+.acessar-portifolio-unico{
+
+	border: 1px solid #333;
+	width: 100px !important;
+	color: #bbbbbb;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 5px 0px 5px;
+ font-size: 5px !important;
+}
+
+.acessar-portifolio-unico:hover{
+	text-decoration: none;
+	background: rgba(#ffffff, 0.72) !important;
+	border: 1px solid #9f9f9f;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O PORTIFOLIO*/
+
+/*BOTAO PARA ACESSAR O BLOG*/
+.acessar-portifolio{
+	font-style: normal !important;
+	border: 1px solid #333;
+	width: 200px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: inline-block;
+
+	padding: 10px 0px 10px;
+ font-size: 12px !important;
+}
+
+.acessar-portifolio:hover{
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #000000;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O BLOG*/
+
+/*--------------------------------------------------------------------------------*/
+/*                                    PORTIFOLIO                                  */
+/*--------------------------------------------------------------------------------*/
+
+.blog{
+	clear: both;
+	text-align: center;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+.blog h3 {
+	font-size: 30	px;
+	margin-bottom: 100px;
+
+}
+.blog h3 p {
+	margin-top: 5px !important;
+	font-size: 15px !important;
+}
+
+.title-blog{
+	margin-top: 120px !important;
+	margin-bottom: 60px !important;
+
+}
+
+.blog img{
+margin-bottom: 15px !important;
+margin-top: 80px !important;
+
+}
+.blog a{
+	text-decoration: none;
+	border-bottom: 1px solid;
+	color: #333;
+	font-size: 20px;
+	font-style: italic;
+	opacity: 0.7;
+}
+
+.blog .link{
+	margin: 0 auto;
+	width: 129px;
+}
+
+.blog .link a:hover{
+	border: 1px solid #333;
+	color: #171717;
+}
+
+
+.blog a:hover{
+	opacity: 1;
+}
+
+.col-md-4{
+	margin-bottom: 10px !important;
+}
+
+.category-blog{
+	margin-top: 30px;
+	clear: both;
+	text-align: justify;
+}
+
+.category-blog p{
+	font-size: 15px;
+}
+
+.category-blog a{
+	color: #333;
+	font-size: 22px;
+	opacity: 0.7;
+	text-decoration: none;
+	color: black;
+}
+.category-blog a:hover{
+	opacity: 1;
+}
+.category-blog .link{
+	margin: 0 auto;
+	width: 129px;
+}
+.category-blog .link a:hover{
+	border: 1px solid #333;
+	background: #EFEFEF;
+}
+
+
+/*BOTAO PARA ACESSAR O BLOG-UNICO*/
+.acessar-blog-unico{
+
+	border: 1px solid #333;
+	width: 100px !important;
+	color: #bbbbbb;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 5px 0px 5px;
+ font-size: 5px !important;
+}
+
+.acessar-blog-unico:hover{
+	text-decoration: none;
+	background: rgba(#ffffff, 0.72) !important;
+	border: 1px solid #9f9f9f;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O PORTIFOLIO*/
+
+/*BOTAO PARA ACESSAR O BLOG*/
+.acessar-blog{
+	font-style: normal !important;
+	border: 1px solid #333;
+	width: 200px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: inline-block;
+
+	padding: 10px 0px 10px;
+ font-size: 12px !important;
+}
+
+.acessar-blog:hover{
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #000000;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O BLOG*/
+
+/*--------------------------------------------------------------------------------*/
+/*                                       SOBRE                                    */
+/*--------------------------------------------------------------------------------*/
+.sobre {
+	text-align: center;
+	border-top: 1px solid #000000;
+	margin-bottom: 100px;
+}
+.sobre a{
+	color: #333;
+	font-size: 15px;
+	font-weight: bold;
+	opacity: 0.7;
+	text-decoration: none;
+}
+.sobre h3{
+	margin-top: 30px;
+	margin-bottom: 28px;
+	font-size: 20px;
+}
+.sobre h5{
+	margin-bottom: 50px;
+	font-size: 25px;
+}
+.sobre h6{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.sobre p{
+	font-size: 15px;
+}
+/*BOTAO PARA ACESSAR PÁGINA SOBRE*/
+.acessar-sobre{
+	border: 1px solid #333;
+	width: 200px;
+	padding: 10px 25px 10px;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.acessar-sobre:hover{
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #fff;
+}
+/* FIM DO BOTAO BOTAO PARA ACESSAR O SOBRE*/
+.sobre a:hover{
+	opacity: 1;
+}
+.sobre img{
+	margin-top: 50px;
+	display: block;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sobre .row {
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+/*--------------------------------------------------------------------------------*/
+/*                                    DEPOIMENTOS                                 */
+/*--------------------------------------------------------------------------------*/
+.depoimentos{
+	color: #fff;
+	border-bottom: 1px solid #000000;
+	border-top: 1px solid #000000;
+	text-align: center;
+	margin-bottom: 50px;
+	background: url(../images/back.jpg)  center top ;
+	display: block;
+	position: relative;
+	text-shadow:0 0 10px rgba(0,0,0,0.7);
+	background-position: 50% 0;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+.depoimentos h2{
+	margin-top: 100px !important;
+		text-decoration: none;
+}
+.depoimentos p{
+		margin-bottom: 100px;
+}
+.depoimentos img{
+margin-top: 40px;
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}

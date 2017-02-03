@@ -1,11 +1,13 @@
 <?php get_header(); ?>
 
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/page.css">
+
  <!-- CRIAÇÃO DO FORMULÁRIO PARA O CONTATO -->
 <?php
 if( is_page('contato') ) {
  ?>
 
-<div class="category-contato">
+<div class="page-contato">
 		<div class="row">
 				<div class="col-md-3 col-lg-3">
 		<h2>ORÇAMENTO</h2>
@@ -83,17 +85,17 @@ Quanto mais detalhes você informar, melhor e mais rápido poderemos responder.
 if( is_page('sobre') ) {
  ?>
 <div class="container">
-      <div class="category-sobre">
+      <div class="page-sobre">
  		       <div class="row">
  				         <div class="col-md-4 col-lg-4">
                       <img src="/photograph/wp-content/themes/wp-bootstrap/assets/images/jane.jpg" class="img-responsive" alt="Responsive image">
 <br>
-                      <ul class="soc-sobre">
-                        <li><a class="soc-sobre-facebook" href="#"></a></li>
-                        <li><a class="soc-sobre-googleplus" href="#"></a></li>
-                        <li><a class="soc-sobre-instagram" href="#"></a></li>
-                        <li><a class="soc-sobre-whatsapp soc-sobre-icon-last" href="#"></a></li>
-                      </ul>
+                          <ul class="soc">
+                              <li><a class="soc-facebook" href="#"></a></li>
+                              <li><a class="soc-instagram" href="#"></a></li>
+                              <li><a class="soc-mail" href="#"></a></li>
+                              <li><a class="soc-whatsapp soc-icon-last" href="#"></a></li>
+                          </ul>
  				         </div>
 
        					<div class="col-md-8 col-lg-8">
