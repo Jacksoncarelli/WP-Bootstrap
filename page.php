@@ -63,18 +63,16 @@ Quanto mais detalhes você informar, melhor e mais rápido poderemos responder.
 
 
 
-<div class="col-md-3 col-lg-3">
-  <div class="google-maps">
 
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.548855922448!2d-61.958461170771166!3d-10.872735999516012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUyJzIxLjkiUyA2McKwNTcnMjguNSJX!5e0!3m2!1spt-BR!2sbr!4v1483915501961" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-      </div>
-
-  </div>
 	</div>
+
+
 </div>
-
-
+<div class="google-maps">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d979.548855922448!2d-61.958461170771166!3d-10.872735999516012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTDCsDUyJzIxLjkiUyA2McKwNTcnMjguNSJX!5e0!3m2!1spt-BR!2sbr!4v1483915501961"
+                width="100%" height="448" frameborder="0" style="border:0">
+          </iframe>
+</div>
 <?php
 	}
 ?>

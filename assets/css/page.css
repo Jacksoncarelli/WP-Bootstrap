@@ -2,7 +2,7 @@
 /*                                   PAGE CONTATO                                 */
 /*--------------------------------------------------------------------------------*/
 .page-contato {
-	margin: 100px;
+	margin: 60px;
 }
 .page-contato p {
 	margin-top: 30px;
@@ -36,7 +36,7 @@
 }
 
 .form-contato .col-lg-6 {
-	margin-bottom: 100px;
+	margin-bottom: 0px;
 }
 
 textarea.form-control {
@@ -45,20 +45,11 @@ textarea.form-control {
 
 /*---------------------------------GOOGLE MAPS--------------------------------*/
 
-.google-maps {
+.google-maps{
+	margin-top: 0px;
+	padding: 10px;
 
-        position: relative;
-        padding-bottom: 75%; // This is the aspect ratio
-        height: 0;
-        overflow: hidden;
-    }
-    .google-maps iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100% !important;
-        height: 100% !important;
-    }
+}
 
 /*--------------------------------------------------------------------------------*/
 /*                                   PAGE SOBRE                                   */
