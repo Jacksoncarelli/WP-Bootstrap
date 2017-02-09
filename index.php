@@ -78,22 +78,15 @@
 
 				<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
 
-
-
 					</div>
 					 <?php
 }
-
 endwhile;
 wp_reset_postdata();
-
-
 ?>
-
-
-
 	     	<div class="clear"></div>
-	<span><a class="acessar-portifolio" align="center"  href="category/portifolio">ACESSAR PORTIFÓLIO</a></span>
+						<a class="acessar-portifolio"align="center"  href="category/portifolio">ACESSAR PORTIFÓLIO</a>
+
 		</div>
 	</div>
 </div>
@@ -110,7 +103,7 @@ wp_reset_postdata();
 			<?php
 			$new_query = new WP_Query( array(
 			    'posts_per_page' => 8,
-			    'post_type'      => portifolio,
+			    'post_type'      => blog,
 			    'orderby'        => 'menu_order',
 			    'paged'          => $paged
 			) );
@@ -126,7 +119,7 @@ endwhile;
 wp_reset_postdata();
 ?>
 	     	<div class="clear"></div>
-	<span><a class="acessar-blog" align="center"  href="category/portifolio">ACESSAR BLOG</a></span>
+	<span><a class="acessar-blog" align="center"  href="category/blog">ACESSAR BLOG</a></span>
 		</div>
 	</div>
 </div>

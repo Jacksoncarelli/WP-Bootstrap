@@ -112,7 +112,7 @@ if( is_page('sobre') ) {
 ?>
 
 <?php
-if( is_page('portifolio/') ) {
+if( is_page('blog/') ) {
  ?>
 
 dasdsa

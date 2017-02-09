@@ -1,11 +1,15 @@
 /*--------------------------------------------------------------------------------*/
-/*                                       BLOG                                     */
+/*                                       PORTIFOLIO                               */
 /*--------------------------------------------------------------------------------*/
 .portifolio{
 	clear: both;
 	text-align: center;
 	margin-left: 25px;
 	margin-right: 25px;
+}
+.portifolio a{
+	color: #333;
+	text-decoration: none;
 }
 .portifolio h3 {
 	font-size: 30	px;
@@ -23,98 +27,30 @@
 margin-bottom: 15px !important;
 margin-top: 80px !important;
 }
-.portifolio a{
-	text-decoration: none;
-	border-bottom: 1px solid;
-	color: #333;
-	font-size: 20px;
-	font-style: italic;
-	opacity: 0.7;
-}
-.portifolio .link{
-	margin: 0 auto;
-	width: 129px;
-}
-.portifolio .link a:hover{
-	border: 1px solid #333;
-	color: #171717;
-}
-.portifolio a:hover{
-	opacity: 1;
-}
 .col-md-4{
 	margin-bottom: 10px !important;
 }
-.category-portifolio{
-	margin-top: 30px;
-	clear: both;
-	text-align: justify;
-}
-.category-portifolio p{
-	font-size: 15px;
-}
-.category-portifolio a{
-	color: #333;
-	font-size: 22px;
-	opacity: 0.7;
-	text-decoration: none;
-	color: black;
-}
-.category-portifolio a:hover{
-	opacity: 1;
-}
-.category-portifolio .link{
-	margin: 0 auto;
-	width: 129px;
-}
-.category-portifolio .link a:hover{
-	border: 1px solid #333;
-	background: #EFEFEF;
-}
-
-/*BOTAO PARA ACESSAR O BLOG-UNICO*/
-.acessar-portifolio-unico{
-
-	border: 1px solid #333;
-	width: 100px !important;
-	color: #bbbbbb;
-	text-transform: uppercase;
-	display: inline-block;
-	padding: 5px 0px 5px;
- font-size: 5px !important;
-}
-
-.acessar-portifolio-unico:hover{
-	text-decoration: none;
-	background: rgba(#ffffff, 0.72) !important;
-	border: 1px solid #9f9f9f;
-}
-/* FIM DO BOTAO BOTAO PARA ACESSAR O PORTIFOLIO*/
-
-/*BOTAO PARA ACESSAR O BLOG*/
-.acessar-portifolio{
+/*------------------------------BOTAO PARA ACESSAR O BLOG---------------------------------*/
+.acessar-portifolio {
 	font-style: normal !important;
-	border: 1px solid #333;
+	border: 1px solid #5d5d5d;
 	width: 200px;
-	color: #fff;
+	color: #5d5d5d;
 	text-transform: uppercase;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	display: inline-block;
-
 	padding: 10px 0px 10px;
- font-size: 12px !important;
 }
-
 .acessar-portifolio:hover{
 	text-decoration: none;
-	color: #333;
+	color: #000000;
 	border: 1px solid #000000;
 }
-/* FIM DO BOTAO BOTAO PARA ACESSAR O BLOG*/
+/* ------------------------------FIM DO BOTAO BOTAO PARA ACESSAR O BLOG-------------------*/
 
 /*--------------------------------------------------------------------------------*/
-/*                                    PORTIFOLIO                                  */
+/*                                    BLOG                                        */
 /*--------------------------------------------------------------------------------*/
 
 .blog{
@@ -123,126 +59,52 @@ margin-top: 80px !important;
 	margin-left: 25px;
 	margin-right: 25px;
 }
-
+.blog a{
+	color: #333;
+	text-decoration: none;
+}
 .blog h3 {
 	font-size: 30	px;
 	margin-bottom: 100px;
-
 }
 .blog h3 p {
 	margin-top: 5px !important;
 	font-size: 15px !important;
 }
-
 .title-blog{
 	margin-top: 120px !important;
 	margin-bottom: 60px !important;
-
 }
-
 .blog img{
 margin-bottom: 15px !important;
 margin-top: 80px !important;
-
 }
-.blog a{
-	text-decoration: none;
-	border-bottom: 1px solid;
-	color: #333;
-	font-size: 20px;
-	font-style: italic;
-	opacity: 0.7;
-}
-
-.blog .link{
-	margin: 0 auto;
-	width: 129px;
-}
-
-.blog .link a:hover{
-	border: 1px solid #333;
-	color: #171717;
-}
-
-
-.blog a:hover{
-	opacity: 1;
-}
-
 .col-md-4{
 	margin-bottom: 10px !important;
 }
 
-.category-blog{
-	margin-top: 30px;
-	clear: both;
-	text-align: justify;
-}
-
-.category-blog p{
-	font-size: 15px;
-}
-
-.category-blog a{
-	color: #333;
-	font-size: 22px;
-	opacity: 0.7;
-	text-decoration: none;
-	color: black;
-}
-.category-blog a:hover{
-	opacity: 1;
-}
-.category-blog .link{
-	margin: 0 auto;
-	width: 129px;
-}
-.category-blog .link a:hover{
-	border: 1px solid #333;
-	background: #EFEFEF;
-}
+/*----------------------------------BOTAO PARA ACESSAR O BLOG-----------------------------------*/
 
 
-/*BOTAO PARA ACESSAR O BLOG-UNICO*/
-.acessar-blog-unico{
 
-	border: 1px solid #333;
-	width: 100px !important;
-	color: #bbbbbb;
-	text-transform: uppercase;
-	display: inline-block;
-	padding: 5px 0px 5px;
- font-size: 5px !important;
-}
-
-.acessar-blog-unico:hover{
-	text-decoration: none;
-	background: rgba(#ffffff, 0.72) !important;
-	border: 1px solid #9f9f9f;
-}
-/* FIM DO BOTAO BOTAO PARA ACESSAR O PORTIFOLIO*/
-
-/*BOTAO PARA ACESSAR O BLOG*/
 .acessar-blog{
 	font-style: normal !important;
-	border: 1px solid #333;
+	border: 1px solid #5d5d5d;
 	width: 200px;
-	color: #fff;
+	color: #5d5d5d;
 	text-transform: uppercase;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	display: inline-block;
-
 	padding: 10px 0px 10px;
- font-size: 12px !important;
 }
 
 .acessar-blog:hover{
 	text-decoration: none;
-	color: #333;
+	color: #000000;
 	border: 1px solid #000000;
 }
-/* FIM DO BOTAO BOTAO PARA ACESSAR O BLOG*/
+/*----------------------------------FIM DO BOTAO BOTAO PARA ACESSAR O BLOG----------------------------------*/
 
 /*--------------------------------------------------------------------------------*/
 /*                                       SOBRE                                    */
@@ -276,7 +138,7 @@ margin-top: 80px !important;
 .sobre p{
 	font-size: 15px;
 }
-/*BOTAO PARA ACESSAR PÁGINA SOBRE*/
+/*----------------------------------BOTAO PARA ACESSAR PÁGINA SOBRE----------------------------------*/
 .acessar-sobre{
 	border: 1px solid #333;
 	width: 200px;
@@ -290,9 +152,9 @@ margin-top: 80px !important;
 .acessar-sobre:hover{
 	text-decoration: none;
 	color: #333;
-	border: 1px solid #fff;
+	border: 1px solid #000000;
 }
-/* FIM DO BOTAO BOTAO PARA ACESSAR O SOBRE*/
+/*----------------------------------FIM DO BOTAO BOTAO PARA ACESSAR O SOBRE----------------------------------*/
 .sobre a:hover{
 	opacity: 1;
 }

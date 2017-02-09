@@ -243,6 +243,69 @@ function wp_custom_breadcrumbs() {
 
 
 
+// Cadastro do POST TYPE BLOG //
+function cadastrando_post_type_blog() {
+
+  $nomeplural = 'Blogs';
+  $nomesingular = 'Blog';
+  $description = $nomeplural.' da empresa';
+
+  $labels = array(
+      'name' => $nomeplural,
+      'name_singular' => $nomesingular,
+      'add_new_item' => 'Adicionar novo '. $nomesingular,
+      'edit_item' => 'Editar '. $nomesingular,
+      'new_item' => __('Novo '. $nomesingular),
+      'all_items' => __('Todos os '. $nomeplural),
+      'view_item' => __('Ver '. $nomesingular),
+      'search_items' => __('Pesquisar ' .$nomeplural),
+      'not_found' =>  __('Não foram encontrados '. $nomeplural),
+      'not_found_in_trash' => __('Nenhum '. $nomesingular .' foi encontrado na lixeira'),
+      'parent_item_colon' => '',
+      'menu_name' => $nomeplural
+
+  );
+
+  $supports = array(
+    'title',
+    'editor',
+    'thumbnail'
+  );
+
+  $args = array(
+    'labels' => $labels,
+    'public' => true,
+    'description' => $description,
+    'menu_icon' => 'dashicons-portfolio',
+    'supports' => $supports,
+    'publicly_queryable' => true,
+    'show_ui' => true,
+    'show_in_menu' => true,
+    'rewrite' => true,
+    'capability_type' => 'post',
+    'has_archive' => true,
+    'menu_position' => null,
+    'supports' => array(
+                  'title',
+                  'editor',
+                  'author',
+                  'thumbnail',
+                  'excerpt',
+                  'comments',
+            )
+            // 'taxonomies'  => array( 'category' ),
+         );
+
+  register_post_type('blog', $args);
+  flush_rewrite_rules();
+
+}
+
+
+add_action('init','cadastrando_post_type_blog');
+
+
+
 // Cadastro do POST TYPE PORTIFOLIO //
 function cadastrando_post_type_portifolio() {
 
@@ -303,8 +366,6 @@ function cadastrando_post_type_portifolio() {
 
 
 add_action('init','cadastrando_post_type_portifolio');
-
-
 
 
 // Cadastro do POST TYPE DEPOIMENTOS //
@@ -392,7 +453,7 @@ add_action('init','cadastrando_post_type_depoimentos');
   		'hierarchical' => true
   		);
 
-  	register_taxonomy('servicos', 'portifolio', $args);
+  	register_taxonomy('servicos', 'blog', $args);
   }
 
   add_action( 'init' , 'criando_taxonomia_servicos' );

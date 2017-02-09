@@ -3,15 +3,11 @@
 	margin-top: 100px;
 	text-align: center;
 }
-
 .category-blog a{
 	text-decoration: none;
 	color: #333333;
 	margin-top: 10px;
-
 }
-
-
 .category-blog h2 a{
 	font-size: 25px !important;
 	margin-top: 5px !important;
@@ -19,16 +15,37 @@
 .category-blog li span{
 	margin-top: 15px !important;
 }
-
 .category-blog  p{
 	margin-top: 10px;
 	margin-bottom: 30px;
 }
-
-
 .form-blog .col-md-8 h2 a {
 	font-size: 24px !important;
 }
-
-
 --------------------------------------------------------------------------------
+.category-portifolio{
+	margin-top: 30px;
+	clear: both;
+	text-align: justify;
+}
+.category-portifolio p{
+	font-size: 15px;
+}
+.category-portifolio a{
+	color: #333;
+	font-size: 22px;
+	opacity: 0.7;
+	text-decoration: none;
+	color: black;
+}
+.category-portifolio a:hover{
+	opacity: 1;
+}
+.category-portifolio .link{
+	margin: 0 auto;
+	width: 129px;
+}
+.category-portifolio .link a:hover{
+	border: 1px solid #333;
+	background: #EFEFEF;
+}
