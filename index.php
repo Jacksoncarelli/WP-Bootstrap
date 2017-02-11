@@ -194,4 +194,9 @@ wp_reset_postdata();
 	</div>
 </div>
 
+<div id="instagram" class="instagram">
+
+	
+</div>
+
 <?php get_footer(); ?>
