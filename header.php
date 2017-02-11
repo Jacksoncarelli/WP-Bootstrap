@@ -7,8 +7,8 @@
   <link rel="stylesheet" href="<?= $home ?>/style.css">
 
 	<?php wp_head(); ?>
-<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
-
+<!-- <link href="wp-content/themes/wp-bootstrap/assets/fonts/Quicksand-Light.ttf" rel="stylesheet"> -->
+<!-- <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> -->
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 <script type="text/javascript">
@@ -34,9 +34,37 @@
 
 </script>
 
+<script type="text/javascript">
+					$(function() {
+						$(window).on("scroll", function() {
+							if($(window).scrollTop() > 5) {
+									$(".navbar-default").addClass("navbar-fixed-top");
+								} else {
+									$(".navbar-default").removeClass("navbar-fixed-top");
+							}
+						});
+					});
+
+					$(function() {
+						$(window).on("scroll", function() {
+							if($(window).scrollTop() > 5) {
+									$(".navbar-brand").addClass("nav-bar-logo");
+								} else {
+									$(".navbar-brand").removeClass(" nav-bar-logo");
+							}
+						});
+					});
+</script>
 
 <script type="text/javascript">
 	$(document).ready(function (){
+
+								$("#menu-item-242").click(function (){
+								$('html, body').animate({
+										scrollTop: $(".blog").offset().top
+								}, 1000);
+						});
+
                 $("#menu-item-118").click(function (){
                 $('html, body').animate({
                     scrollTop: $(".portifolio").offset().top
@@ -65,10 +93,6 @@
 
 
 </script>
-
-
-
-
 </head>
 <?php flush(); ?>
 <body>
@@ -82,15 +106,12 @@ oncontextmenu="return false" ondragstart="return false" onselectstart="return fa
 		</div>
 </div>
 
-
-
-
 <?php
 if(is_home()):
-
  ?>
-<di v   class="header">
-	<nav class="navbar navbar-default navbar-custom">
+
+<div  class="header">
+	<nav id="menu" class="navbar navbar-default">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
