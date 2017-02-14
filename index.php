@@ -16,6 +16,7 @@
 			$count ++ ;
 	    	endforeach;
 	    	endif;
+				
 	     ?>
 	  </ol>
 
@@ -196,7 +197,7 @@ wp_reset_postdata();
 
 <div id="instagram" class="instagram">
 
-	
+
 </div>
 
 <?php get_footer(); ?>
