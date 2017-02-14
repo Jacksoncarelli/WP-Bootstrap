@@ -156,7 +156,7 @@ if(is_home()):
 		        <span class="icon-bar"></span>
 		        <span class="icon-bar"></span>
 		      </button>
-		      <a class="navbar-brand" href="<?p	hp bloginfo('url') ?>"><spam>JANE SENNA </spam>FOTOGRAFIAS</a>
+		      <a class="navbar-brand" href="<?php bloginfo('url') ?>"><spam>JANE SENNA </spam>FOTOGRAFIAS</a>
 		    </div>
 
 			<?php require_once('assets/includes/wp_bootstrap_navwalker.php'); ?>

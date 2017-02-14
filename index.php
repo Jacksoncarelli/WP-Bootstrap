@@ -16,7 +16,7 @@
 			$count ++ ;
 	    	endforeach;
 	    	endif;
-				
+
 	     ?>
 	  </ol>
 
@@ -54,31 +54,21 @@
 
 
 <div id="portifolio" class="portifolio">
-
-
 		<div class="row">
 						<h3 class="title-portifolio">Portifólio
 							<p>Últimos álbuns postados</p>
 						</h3>
-
-
 			<?php
-
-
 			$new_query = new WP_Query( array(
 			    'posts_per_page' => 4,
 			    'post_type'      => portifolio,
 			    'orderby'        => 'menu_order',
 			    'paged'          => $paged
 			) );
-
-
 			while ( $new_query->have_posts() ) : $new_query->the_post(); {
 ?>
 			<div class="col-md-3 col-lg-3">
-
 				<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
-
 					</div>
 					 <?php
 }
@@ -86,11 +76,9 @@ endwhile;
 wp_reset_postdata();
 ?>
 	     	<div class="clear"></div>
-						<a class="acessar-portifolio"align="center"  href="category/portifolio">ACESSAR PORTIFÓLIO</a>
-
+					<a class="acessar-portifolio"align="center"  href="category/portifolio">ACESSAR PORTIFÓLIO</a>
 		</div>
 	</div>
-</div>
 
 <li style="list-style-type: none;"><hr style="height:1px; border:none; color:#000000; background-color:#000; margin-top: 10px; margin-bottom: 12px;"/></li>
 
@@ -123,15 +111,9 @@ wp_reset_postdata();
 	<span><a class="acessar-blog" align="center"  href="category/blog">ACESSAR BLOG</a></span>
 		</div>
 	</div>
-</div>
 
-
-
-
-
-
-	<div class="container">
-<div id="sobre" class="sobre">
+<div class="container">
+	<div id="sobre" class="sobre">
 		<div class="row">
 
 			<div class="col-md-4 col-lg-4">
@@ -168,8 +150,6 @@ wp_reset_postdata();
 		</div>
 	</div>
 </div>
-</div>
-
 <div id="depoimentos" class="depoimentos">
 	 <div align="center" class="container">
 		<h2 class="title-depoimentos" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">Depoimentos de Clientes</h2>
