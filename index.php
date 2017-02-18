@@ -103,10 +103,7 @@ wp_reset_postdata();
 										<?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
 <a class="" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 					</div>
-					 <?php
-}
-endwhile;
-?>
+					 <?php } endwhile; ?>
 	     	<div class="clear"></div>
 	<span><a class="acessar-blog" align="center"  href="category/blog">ACESSAR BLOG</a></span>
 		</div>
