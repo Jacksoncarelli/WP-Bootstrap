@@ -91,9 +91,10 @@ wp_reset_postdata();
 						</h3>
 			<?php
 			$new_query = new WP_Query( array(
-			    'posts_per_page' => 8,
+			    'posts_per_page' => 6,
 			    'post_type'      => blog,
-			    'orderby'        => 'menu_order',
+			    'orderby'        => 'date',
+					'order'					 => 'CRES',
 			    'paged'          => $paged
 			) );
 			while ( $new_query->have_posts() ) : $new_query->the_post(); {
@@ -105,7 +106,6 @@ wp_reset_postdata();
 					 <?php
 }
 endwhile;
-wp_reset_postdata();
 ?>
 	     	<div class="clear"></div>
 	<span><a class="acessar-blog" align="center"  href="category/blog">ACESSAR BLOG</a></span>
@@ -150,6 +150,8 @@ wp_reset_postdata();
 		</div>
 	</div>
 </div>
+
+<!-- FOTOS NO TAMANHO QUADRADO DE 200 A 450px -->
 <div id="depoimentos" class="depoimentos">
 	 <div align="center" class="container">
 		<h2 class="title-depoimentos" style="text-align: center; margin-top: 50px; margin-bottom: 50px;">Depoimentos de Clientes</h2>
@@ -170,7 +172,6 @@ wp_reset_postdata();
 				endforeach;
 				endif;
 			?>
-			<div class="clear"></div>
 
 	</div>
 </div>

@@ -1,6 +1,7 @@
 
 .category-blog {
 	margin-top: 100px;
+	align-items: center;
 	text-align: center;
 }
 .category-blog a{
@@ -18,6 +19,10 @@
 .category-blog  p{
 	margin-top: 10px;
 	margin-bottom: 30px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
 }
 --------------------------------------------------------------------------------
 .category-portifolio{
