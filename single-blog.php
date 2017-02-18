@@ -1,7 +1,8 @@
 <?php get_header(); ?>
 
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/single-portifolio.css">
+<!-- TAMANHO DAS IMAGENS POSTADAS NO BLOG 430x650px -->
 
+<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/single-blog.css">
 <div class="container">
       <div align="center"  class="col-md-12 col-lg-12">
         <div class="conteudo-blog">

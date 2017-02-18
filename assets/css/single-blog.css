@@ -1,0 +1,20 @@
+.conteudo-blog img{
+		display: block !important;
+		max-width: 100% !important;
+		height: auto !important;
+}
+
+.conteudo-blog h2 a{
+	text-decoration: none !important;
+	color: #333333;
+}
+.conteudo-blog h2 a:visited{
+	text-decoration: none !important;
+}
+
+.conteudo-blog {
+	margin-top: 50px;
+}
+.conteudo-blog p {
+	margin-bottom: 15px;
+}
