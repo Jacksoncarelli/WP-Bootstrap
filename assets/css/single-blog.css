@@ -2,7 +2,8 @@
 		display: block !important;
 		max-width: 100% !important;
 		height: auto !important;
-}
+		border: 10px solid #ffffff !important;
+ }
 
 .conteudo-blog h2 a{
 	text-decoration: none !important;
@@ -17,4 +18,7 @@
 }
 .conteudo-blog p {
 	margin-bottom: 15px;
+font-family: 'Didact Gothic', sans-serif;
+font-size: 16px;
+
 }
