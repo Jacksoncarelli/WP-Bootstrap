@@ -16,6 +16,12 @@ body {
 	background-image: url(assets/images/backgroundsite.jpg);
 
 }
+.login h1 a {
+background-image: url('image/logo.png');
+background-size: 300px 150px;
+width: 300px;
+height: 150px;
+}
 /* vietnamese */
 @font-face {
   font-family: 'Quicksand';

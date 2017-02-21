@@ -9,7 +9,10 @@ function add_suport_theme(){
 add_action('after_setup_theme','add_suport_theme');
 
 
-
+function custom_login_css() {
+echo '<link rel="stylesheet" type="text/css" href="'.get_stylesheet_directory_uri().'/style.css"/>';
+}
+add_action('login_head', 'custom_login_css');
 
 
 

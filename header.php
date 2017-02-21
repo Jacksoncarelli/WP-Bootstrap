@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="shortcut icon" href="/photograph/wp-content/themes/wp-bootstrap/assets/images/favicon.png">
 	<?php   $home = get_template_directory_uri(); ?>
   <link rel="stylesheet" href="<?= $home ?>/reset.css">
   <link rel="stylesheet" href="<?= $home ?>/style.css">
