@@ -75,7 +75,7 @@
               <div class="hoverzoom">
                 <?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
                 <div class="retina ">
-                  <a align="center" href="category/portifolio"><?php the_title(); ?></a>
+                  <a align="center" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                 </div>
                 </div>
 
@@ -86,7 +86,7 @@
 									wp_reset_postdata();
 								?>
             <div class="clear"></div>
-            <a class="acessar-portifolio" align="center" href="category/portifolio">ACESSAR PORTIFÓLIO</a>
+            <!-- <a class="acessar-portifolio" align="center" href="category/portifolio">ACESSAR PORTIFÓLIO</a> -->
     </div>
 </div>
 
@@ -127,53 +127,7 @@
     </div>
 </div>
 
-<div class="container">
-    <div id="sobre" class="sobre">
-        <div class="row">
 
-            <div class="col-md-4 col-lg-4">
-                <h5>Facebook
-
-            </div>
-
-            <div class="col-md-4 col-lg-4">
-                <h5>Jane Sena Novais
-                    <img src="/photograph/wp-content/themes/wp-bootstrap/assets/images/jane.jpg" class="img-responsive" alt="Responsive image">
-
-                    <div class="link"><a class="acessar-sobre" href="sobre">Saiba mais sobre mim</a></div>
-            </div>
-
-            <div class="col-md-4 col-lg-4">
-                <h5>Contato</h5>
-                <h3><a href="contato">SOLICITE UM ORÇAMENTO AQUI</a></h3>
-
-
-                <p>+55 (69) 9.9974-3782
-                    <p>janesennafotografias@gmail.com
-                        <p>Rua Abílio Freire
-                            <p>Ji-Paraná - RO</p>
-
-                            <h6>REDES SOCIAIS</h6>
-                            <ul class="soc">
-                                <li>
-                                    <a class="soc-facebook" href="#"></a>
-                                </li>
-                                <li>
-                                    <a class="soc-instagram" href="#"></a>
-                                </li>
-                                <li>
-                                    <a class="soc-mail" href="#"></a>
-                                </li>
-                                <li>
-                                    <a class="soc-whatsapp soc-icon-last" href="#"></a>
-                                </li>
-                            </ul>
-            </div>
-
-
-        </div>
-    </div>
-</div>
 
 <!-- FOTOS NO TAMANHO QUADRADO DE 780x520px -->
 <div id="depoimentos" class="depoimentos">
@@ -199,6 +153,55 @@
 				endif;
 			?>
 
+    </div>
+</div>
+
+
+<div class="container">
+    <div id="sobre" class="sobre">
+        <div class="row">
+
+            <div class="col-md-4 col-lg-4">
+                <h5>Facebook
+
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <h5>Jane Sena Novais
+                    <img src="/photograph/wp-content/themes/wp-bootstrap/assets/images/jane.jpg" class="img-responsive" alt="Responsive image">
+
+                    <div class="link"><a class="acessar-sobre" href="sobre">Saiba mais sobre mim</a></div>
+            </div>
+
+            <div class="col-md-4 col-lg-4">
+                <h5>Contato</h5>
+                <h3><a href="contato">SOLICITE UM ORÇAMENTO AQUI</a></h3>
+
+
+                <p>+55 (69) 9.9324-5206
+                    <p>janesennafotografias@gmail.com
+                        <p>Rua Abílio Freire
+                            <p>Ji-Paraná - RO</p>
+
+                            <h6>REDES SOCIAIS</h6>
+                            <ul class="soc">
+                                <li>
+                                    <a class="soc-facebook" href="https://www.facebook.com/janesennafotografias"></a>
+                                </li>
+                                <li>
+                                    <a class="soc-instagram" href="https://www.instagram.com/janesennafotografias/"></a>
+                                </li>
+                                <li>
+                                    <a title="janesennafotografias@gmail.com" class="soc-mail" href="contato"></a>
+                                </li>
+                                <li>
+                                    <a title="(69)9.99743782 | (69)9.9324-5206" class="soc-whatsapp soc-icon-last tooltip" href="#"></a>
+                                </li>
+                            </ul>
+            </div>
+
+
+        </div>
     </div>
 </div>
 

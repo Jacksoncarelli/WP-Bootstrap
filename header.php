@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="<?= $home ?>/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet">
 
-	<?php wp_head(); ?>
+<?php wp_head(); ?>
 <!-- <link href="wp-content/themes/wp-bootstrap/assets/fonts/Quicksand-Light.ttf" rel="stylesheet"> -->
 <!-- <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"> -->
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
@@ -31,31 +31,32 @@
 		})
 
 	});
-
-
 </script>
 
-<script type="text/javascript">
-					$(function() {
-						$(window).on("scroll", function() {
-							if($(window).scrollTop() > 5) {
-									$(".navbar-default").addClass("navbar-fixed-top");
-								} else {
-									$(".navbar-default").removeClass("navbar-fixed-top");
-							}
-						});
-					});
+<?php if (is_home()) { ?>
 
-					$(function() {
-						$(window).on("scroll", function() {
-							if($(window).scrollTop() > 5) {
-									$(".navbar-brand").addClass("nav-bar-logo");
-								} else {
-									$(".navbar-brand").removeClass(" nav-bar-logo");
-							}
+	<script type="text/javascript">
+						$(function() {
+							$(window).on("scroll", function() {
+								if($(window).scrollTop() > 5) {
+										$(".navbar-default").addClass("navbar-fixed-top");
+									} else {
+										$(".navbar-default").removeClass("navbar-fixed-top");
+								}
+							});
 						});
-					});
-</script>
+
+						$(function() {
+							$(window).on("scroll", function() {
+								if($(window).scrollTop() > 5) {
+										$(".navbar-brand").addClass("nav-bar-logo");
+									} else {
+										$(".navbar-brand").removeClass(" nav-bar-logo");
+								}
+							});
+						});
+	</script>
+<?php } ?>
 
 <script type="text/javascript">
 	$(document).ready(function (){
@@ -72,20 +73,20 @@
                 }, 1000);
             });
 
-            $("#menu-item-119").click(function (){
+            $("#menu-item-350").click(function (){
                 $('html, body').animate({
                     scrollTop: $(".sobre").offset().top
                 }, 1000);
             });
 
-						$("#menu-item-183").click(function (){
+						$("#menu-item-349").click(function (){
 								$('html, body').animate({
 										scrollTop: $(".depoimentos").offset().top
 								}, 1000);
 						});
 
 
-            $("#menu-item-120").click(function (){
+            $("#menu-item-350").click(function (){
                 $('html, body').animate({
                     scrollTop: $(".contato").offset().top
                 }, 1000);
@@ -165,11 +166,10 @@ if(is_home()):
 		         <li><a href="/photograph">HOME</a></li>
 						 <li><a href="/photograph/portifolio">PORTIFÓLIO</a></li>
 						 <li><a href="/photograph/category/blog">BLOG</a></li>
-						 <li><a href="#">DEPOIMENTOS</a></li>
+						 <li><a href="/photograph/#depoimentos">DEPOIMENTOS</a></li>
 							<li><a href="/photograph/sobre">SOBRE</a></li>
 							<li><a href="/photograph/contato">CONTATO</a></li>
 						 <li> <?php get_search_form(); ?></li>
-
 				</div>
 
 		  </div><!-- /.container-fluid -->
@@ -191,20 +191,16 @@ if(is_home()):
 	 		      <a class="navbar-brand" href="<?php bloginfo('url') ?>"><spam>JANE SENNA </spam>FOTOGRAFIAS</a>
 	 		    </div>
 
-	 			<?php require_once('assets/includes/wp_bootstrap_navwalker.php'); ?>
-	 		    <?php
-	             wp_nav_menu( array(
-	                 'menu'              => 'menu-categoria',
-	                 'theme_location'    => 'menu-categoria',
-	                 'depth'             => 2,
-	                 'container'         => 'div',
-	                 'container_class'   => 'collapse navbar-collapse navbar-collapse-custom',
-	         		'container_id'      => 'bs-example-navbar-collapse-1',
-	                 'menu_class'        => 'nav navbar-nav nav navbar-nav navbar-right',
-	                 'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-	                 'walker'            => new wp_bootstrap_navwalker())
-	             );
-	         ?>
+					<div class="collapse navbar-collapse navbar-collapse-custom" id="bs-example-navbar-collapse-1">
+			       <ul class="nav navbar-nav nav navbar-nav navbar-right">
+			         <li><a href="/photograph">HOME</a></li>
+							 <li><a href="/photograph/portifolio">PORTIFÓLIO</a></li>
+							 <li><a href="/photograph/category/blog">BLOG</a></li>
+							 <li><a href="/photograph/#depoimentos">DEPOIMENTOS</a></li>
+								<li><a href="/photograph/sobre">SOBRE</a></li>
+								<li><a href="/photograph/contato">CONTATO</a></li>
+
+					</div>
 
 	 		  </div><!-- /.container-fluid -->
 	 		</nav>

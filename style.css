@@ -1,16 +1,23 @@
 /*
-Theme Name: Photograph Theme Bootstrap
+Theme Name: Jane Senna Photograph
 Theme URL: http://########.com
-Description: Site Para Fotografia
+Description: Site Para empresa Jane Senna Fotografias.
 Author: Jackson Carelli
 Author URL: http://#######.com
-Version: 1.1
+Version: 1.0
 */
 
+
+html {
+    position: relative;
+    min-height: 100%;
+}
 body {
+	height: 100%;
 	width:100%;
 	padding: 0;
 	margin: 0;
+	 margin: 0 0 70px; /* altura do seu footer */
 	font-size: 1.2em;
 	font-family: 'Quicksand', sans-serif;
 	background-image: url(assets/images/backgroundsite.jpg);
@@ -157,6 +164,11 @@ margin-bottom: 0;
 	color: black;
 }
 .footer2 {
+  border-top: 2px solid #b0b0b0;
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	height: 70px;
 	background-color: #f8f8f8;
 	padding: 20px 0;
 	font-size: 15px;

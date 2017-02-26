@@ -1,0 +1,7 @@
+.conteudo-portifolio img {
+
+  display: block !important;
+  max-width: 100% !important;
+  height: auto !important;
+  border: 10px solid #ffffff !important;
+}

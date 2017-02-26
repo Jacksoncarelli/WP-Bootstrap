@@ -4,7 +4,7 @@
 
   <div class="container">
       <div align="center" class="col-md-12 col-lg-12">
-          <div class="conteudo-blog">
+          <div class="conteudo-portifolio">
               <?php
           if ( have_posts() ) {
             while (have_posts() ) {

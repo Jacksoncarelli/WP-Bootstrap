@@ -1,0 +1,26 @@
+.page-404 {
+margin-top: 5%;
+}
+.page-404 p{
+  font-size: 200px;
+}
+.page-404 h2{
+  font-size: 40px;
+}
+.voltar {
+	font-style: normal !important;
+	border: 1px solid #5d5d5d;
+	width: 200px;
+	color: #5d5d5d;
+  background-color: rgba(255, 255, 255, 0);
+	text-transform: uppercase;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	display: inline-block;
+	padding: 10px 0px 10px;
+}
+.voltar:hover{
+	text-decoration: none;
+	color: #000000;
+	border: 1px solid #000000;
+}
