@@ -1,7 +1,6 @@
 <?php get_header(); ?>
 
 <!-- TAMANHO DAS IMAGENS POSTADAS NO BLOG 780X520px -->
-
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/single-blog.css">
 <div class="container">
     <div align="center" class="col-md-12 col-lg-12">
@@ -27,6 +26,5 @@
           ?>
 
     </div>
-</div>
 </div>
 <?php get_footer(); ?>

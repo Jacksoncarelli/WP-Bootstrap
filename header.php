@@ -169,7 +169,7 @@ if(is_home()):
 						 <li><a href="/photograph/#depoimentos">DEPOIMENTOS</a></li>
 							<li><a href="/photograph/sobre">SOBRE</a></li>
 							<li><a href="/photograph/contato">CONTATO</a></li>
-						 <li> <?php get_search_form(); ?></li>
+						 <!-- <li> <?php get_search_form(); ?></li> -->
 				</div>
 
 		  </div><!-- /.container-fluid -->

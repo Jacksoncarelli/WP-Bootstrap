@@ -459,7 +459,6 @@ add_action('init','cadastrando_post_type_depoimentos');
   function criando_taxonomia_servicos() {
   	$singular = 'Serviço';
   	$plural = 'Serviços';
-
   	$labels = array(
   		'name' => $plural,
   		'singular_name' => $singular,

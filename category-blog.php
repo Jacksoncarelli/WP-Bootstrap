@@ -3,7 +3,9 @@
 
 
 <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/assets/css/category.css">
-<div class="container">
+
+<div class="container text-center">
+  <?php get_search_form(); ?>
     <div class="category-blog">
       <!-- <h1>BLOG</h1> -->
         <br>
@@ -14,16 +16,16 @@
 						$loop = new WP_Query($args);
 						?>
         <?php $cont =1; if($loop -> have_posts()) : while ($loop -> have_posts()) : $loop -> 	the_post(); ?>
-
+          <h2>
+              <a href="<?php the_permalink(); ?>">
+                  <?php the_title(); ?>
+              </a>
+          </h2>
         <div class="col-md-8 col-centered">
 
             <ul>
                 <li>
-                    <h2>
-                        <a href="<?php the_permalink(); ?>">
-                            <?php the_title(); ?>
-                        </a>
-                    </h2>
+
                 </li>
                 <br>
                 <li><span> <?php the_date(); ?> </span></li>
@@ -35,7 +37,8 @@
                 </li>
             </ul>
             <a class="text-center" href="<?php the_permalink(); ?>"><?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?></a>
-            <!-- <div class="link"><a class="acessar-post-blog" href="<?php the_permalink(); ?>">ACESSAR</a></div> --></div>
+            <!-- <div class="link"><a class="acessar-post-blog" href="<?php the_permalink(); ?>">ACESSAR</a></div> -->
+          </div>
 
         <?php endwhile; endif; ?>
 
