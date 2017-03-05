@@ -113,7 +113,7 @@ if(is_home()):
  ?>
 
 <div  class="header">
-	<nav id="menu" class="navbar navbar-default">
+	<nav id="menu" class="navbar navbar-default text-center">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -148,7 +148,7 @@ if(is_home()):
     elseif (is_category('blog')):
  ?>
 <div   class="header-page">
-	<nav class="navbar navbar-default navbar-custom">
+	<nav class="navbar navbar-default navbar-custom text-center">
 		  <div class="container">
 		    <!-- Brand and toggle get grouped for better mobile display -->
 		    <div class="navbar-header">
@@ -178,7 +178,7 @@ if(is_home()):
 		    else :
 		 ?>
 		 <div   class="header-page">
-	 	<nav class="navbar navbar-default navbar-custom">
+	 	<nav class="navbar navbar-default navbar-custom text-center">
 	 		  <div class="container">
 	 		    <!-- Brand and toggle get grouped for better mobile display -->
 	 		    <div class="navbar-header">

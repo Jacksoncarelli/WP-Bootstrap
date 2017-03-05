@@ -21,7 +21,26 @@ body {
 	font-size: 1.2em;
 	font-family: 'Quicksand', sans-serif;
 	background-image: url(assets/images/backgroundsite.jpg);
+}
 
+::-webkit-scrollbar-track {
+    background-color: #d1d1d1;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #d1d1d1;
+}
+::-webkit-scrollbar-thumb {
+    background: #323232;
+}
+.navbar-default .navbar-toggle{
+  border-color: #777 !important;
+}
+.navbar-toggle .icon-bar+.icon-bar{
+  margin-top: 6px !important;
+}
+.navbar-toggle{
+  border-radius: 0px !important;
 }
 .login h1 a {
 background-image: url('image/logo.png');
@@ -66,6 +85,11 @@ spamicone {
 }
 .clear {
 	clear: both;
+}
+.navbar-brand{
+  line-height: 50px;
+  margin-left: 50px;
+  float: none !important;
 }
 .navbar-brand-scroll{
 	background-color: black;

@@ -83,25 +83,15 @@ if( is_page('sobre') ) {
         <div class="page-sobre">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-12">
-                        <img class="text-center" src="/photograph/wp-content/themes/wp-bootstrap/assets/images/jane.jpg" class="img-responsive" alt="Responsive image">
-                        <br>
-                        <ul class="soc">
-                            <li>
-                                <a class="soc-facebook" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="soc-instagram" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="soc-mail" href="#"></a>
-                            </li>
-                            <li>
-                                <a class="soc-whatsapp soc-icon-last" href="#"></a>
-                            </li>
-                        </ul>
+                  <div class="col-md-4 col-lg-4">
+                      <?php if(have_posts()): while (have_posts()) : the_post() ?>
+                    <?php the_post_thumbnail(false, array('class'=>'img-responsive')); ?>
+                    <br>
+                  </div>
+                    <div class="col-md-8 col-lg-8">
 
-                        <?php if(have_posts()): while (have_posts()) : the_post() ?>
+
+
                         <?php the_content(); ?>
                     </div>
                 </div>
