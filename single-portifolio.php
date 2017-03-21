@@ -12,9 +12,9 @@
           ?>
 
                   <h2>
-                      <?php the_title(); ?>
+                      <!-- <?php the_title(); ?> -->
                   </h2>
-                  <?php the_date(); ?>
+                  <!-- <?php the_date(); ?> -->
                   <br><br>
 
                   <?php the_content(); ?>

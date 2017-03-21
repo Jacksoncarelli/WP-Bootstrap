@@ -1,7 +1,7 @@
-dia 01 - 02-12-2016 
-Instalação do Wordpress
-Criação dos arquivos principais
-Criação dos menus
+dia 01 - 02-12-2016
+Instalaï¿½ï¿½o do Wordpress
+Criaï¿½ï¿½o dos arquivos principais
+Criaï¿½ï¿½o dos menus
 
 
 dia 02 - 03-13-2016
@@ -10,9 +10,9 @@ https://www.youtube.com/watch?v=mG0Ydr5RoIY
 
 
 dia 03 - 04-13-2016
-Criação da galeria 
-Criação do contato
-Criação do footer
+Criaï¿½ï¿½o da galeria
+Criaï¿½ï¿½o do contato
+Criaï¿½ï¿½o do footer
 
 
 dia 04 - 05-13-2016
@@ -26,7 +26,7 @@ http://preview.themeforest.net/item/springbook-responsive-wordpress-blog-travel-
 tradutor do wordpress
 https://poedit.net/download
 
-Resetar o CSS para começo de projeto
+Resetar o CSS para comeï¿½o de projeto
 http://meyerweb.com/eric/tools/css/reset/
 
 /CSS tools/
@@ -34,3 +34,20 @@ http://www.cssmatic.com/
 
 Sidebar - Rede social
 https://www.addthis.com/
+
+
+- PÃ¡ginas
+  blog
+  contato
+  galeria
+  portifolio
+  sobre
+
+- Blogs
+  Para melhor organizaÃ§Ã£o o titulo dos blogs seguirÃ£o uma ordem:
+    Ex: Nome | Evento | Cidade
+  O ConteÃºdo do blog serÃ¡ centralizado comeÃ§ando pela descriÃ§Ã£o do evento e as fotos a baixo e as imagens sendo do tamanho: 780x520px.
+  Na aba lateral "servicos" serÃ¡ categorizado o tipo do evento a ser postado, e a baixo a "imagem destacada", serÃ¡ a imagem que ficara como principal
+  na pÃ¡gina home e blog com obrigaÃ§Ã£o de ser em um tamanho especifico: 780x520px.
+
+-

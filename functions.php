@@ -85,6 +85,10 @@ function wp_responsivo_scripts() {
 
 
 
+
+
+
+
   //Carregando no footer
   //wp_enqueue_script('functions-js', get_template_directory_uri().'/assets/js/functions.js', array('jquery'), '', true );
 }
